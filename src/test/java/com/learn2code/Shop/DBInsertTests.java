@@ -28,7 +28,6 @@ public class DBInsertTests {
     private final String insertProduct = "INSERT INTO product (merchant_id, name, description, price, available, created_At) values (?, ?, ?, ?, ?, ?)";
 
 
-
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
