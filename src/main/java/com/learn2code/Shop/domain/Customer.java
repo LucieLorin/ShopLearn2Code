@@ -93,7 +93,6 @@ public class Customer {
     public String getPhone_Number() {
         return phone_Number;
     }
-
     public void setPhoneNumber(@Nullable String phoneNumber) {
         this.phone_Number = phone_Number;
     }
